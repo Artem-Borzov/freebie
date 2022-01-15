@@ -54,7 +54,14 @@ img {
 	border: none;
 }
 /* ----------------------Header----------------------------- */
-/* .header { }*/
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: var(--main-background-color);
+	z-index: 2;
+}
 .header-container {
 	display: flex;
 	align-items: center;
@@ -106,7 +113,9 @@ img {
 	padding-top: 13px;
 	padding-bottom: 13px;
 }
-
+.main {
+	padding-top: 116.67px;
+}
 /* Hero */
 .hero {
 	background-color: var(--secondary-background-color-f1);
